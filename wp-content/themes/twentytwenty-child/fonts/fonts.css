@@ -18,8 +18,8 @@
 @font-face {
   font-family: "Raleway";
   src: local("Raleway"), local("Raleway-Regular"),
-    url("/wp-content/themes/twentytwenty-child/fonts/Raleway/Raleway-Regular.woff2") format("woff2"),
-    url("/wp-content/themes/twentytwenty-child/fonts/Raleway/Raleway-Regular.woff") format("woff");
+    url("../Raleway/Raleway-Regular.woff2") format("woff2"),
+    url("../Raleway/Raleway-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
