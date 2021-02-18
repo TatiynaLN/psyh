@@ -854,15 +854,15 @@ button.btn {
 }
 
 .container__family {
-  background: url("../img/family1@1x.jpg");
+  background: url("../img/family1@1x-s.jpg");
 }
 
 .container__child {
-  background: url("../img/child1@1x.jpg");
+  background: url("../img/child1@1x-s.jpg");
 }
 
 .container__online {
-  background: url("../img/onlain1@x1.jpg");
+  background: url("../img/onlain1@x1-s.jpg");
 }
 
 .onlineConsul-titles {
@@ -893,18 +893,13 @@ button.btn {
 }
 
 .cnt-consul {
-  width: 100%;
-  height: auto;
   border-radius: 5px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: relative;
   padding: 11.1rem 1rem 7.2rem 1rem;
 }
 
 .container__indivConsul {
-  background: url("../img/individ1@1x.jpg");
+  background: url("../img/individ1@1x-s.jpg");
 }
 
 .section__indivConsul {
@@ -1122,20 +1117,9 @@ button.btn {
   margin-bottom: 10.3rem;
 }
 
-.wraper {
-  margin: 0 auto;
-  width: 81.5%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  text-align: center;
-}
-
 .container__blogPage {
-  background: url("../img/blogPage1.jpg");
   padding: 4.1rem 1rem;
+  background: url("../img/blogPage1-s.jpg");
 }
 
 .blogPage__title,
@@ -1180,6 +1164,17 @@ button.btn {
 .blogPage__min-text,
 .blogPage__title {
   margin-bottom: 2rem;
+}
+
+.wraper {
+  margin: 0 auto;
+  width: 81.5%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  text-align: center;
 }
 
 .container__contacts {
@@ -2939,14 +2934,40 @@ input[type="checkbox"]:checked ~ .accordion-child {
     width: 50%;
   }
 
+  .container__family {
+    background: url("../img/family1@1x-m.jpg");
+  }
+
+  .container__child {
+    background: url("../img/child1@1x-m.jpg");
+  }
+
+  .container__online {
+    background: url("../img/onlain1@x1-m.jpg");
+  }
+
   .indivConsul__title {
     font-size: 4.8rem;
     line-height: 5.8rem;
   }
 
+  .container__indivConsul {
+    background: url("../img/individ1@1x-m.jpg");
+  }
+
   .galery__item {
     width: 30%;
     gap: 2rem;
+  }
+
+  .container__blogPage {
+    background: url("../img/blogPage1-m.jpg");
+  }
+
+  .wraper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .blogPage__containers {
@@ -3270,6 +3291,10 @@ input[type="checkbox"]:checked ~ .accordion-child {
     margin-bottom: 4.5rem;
   }
 
+  .container__indivConsul {
+    background: url("../img/individ1@1x.jpg");
+  }
+
   .title {
     width: 65rem;
     font-size: 7.2rem;
@@ -3403,6 +3428,14 @@ input[type="checkbox"]:checked ~ .accordion-child {
     width: 65%;
   }
 
+  .container__family {
+    background: url("../img/family1@1x.jpg");
+  }
+
+  .container__child {
+    background: url("../img/child1@1x.jpg");
+  }
+
   .block__txt-txts {
     width: 48%;
   }
@@ -3410,6 +3443,10 @@ input[type="checkbox"]:checked ~ .accordion-child {
   .consul-title {
     font-size: 2.4rem;
     line-height: 3.84rem;
+  }
+
+  .container__online {
+    background: url("../img/onlain1@x1.jpg");
   }
 
   .blogPage {
@@ -3423,6 +3460,16 @@ input[type="checkbox"]:checked ~ .accordion-child {
 
   .blogPage__container {
     width: 60%;
+  }
+
+  .container__blogPage {
+    background: url("../img/blogPage1.jpg");
+  }
+
+  .wraper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .footer {
