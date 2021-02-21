@@ -3,7 +3,7 @@
 ;
 
 (function () {
-  var panel = document.querySelector('.bo');
+  var panel = document.querySelector('body');
   document.querySelector('.menu__btn').addEventListener('click', function (e) {
     panel.classList.toggle('oh');
   });
