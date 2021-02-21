@@ -844,10 +844,6 @@ button.btn {
   margin-bottom: 4.6rem;
 }
 
-.header__price {
-  margin-bottom: 4.6rem;
-}
-
 .price__title {
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -888,8 +884,8 @@ button.btn {
   color: #565b62;
 }
 
-.header__indivConsul {
-  margin-bottom: 4rem;
+.sect {
+  padding-top: 4.4rem;
 }
 
 .cnt-consul {
@@ -941,12 +937,6 @@ button.btn {
 .spam-icon {
   width: 3.1rem;
   height: 3.1rem;
-  fill: none;
-  /* заливка */
-  stroke: #e89160;
-  /* цвет обводки */
-  stroke-width: 0.1rem;
-  /* толщина обводки */
   position: relative;
   z-index: 0;
 }
@@ -975,6 +965,16 @@ button.btn {
 
 .block__txt-icon {
   align-self: baseline;
+  width: 9.5%;
+}
+
+.block__txt-icon img {
+  width: 100%;
+}
+
+.block__txt-box,
+.ttxt {
+  width: 90%;
 }
 
 .carosel {
@@ -991,8 +991,6 @@ button.btn {
 }
 
 .eye svg {
-  fill: #4dc8c0;
-  /* заливкa */
   top: 1.5rem;
   left: 1.2rem;
   z-index: 1;
@@ -1007,6 +1005,11 @@ button.btn {
   height: 10rem;
 }
 
+.eyes {
+  width: 30% !important;
+  text-align: center;
+}
+
 .galery-list {
   width: 100%;
   display: flex;
@@ -1019,6 +1022,7 @@ button.btn {
   position: relative;
   margin: 0 auto;
   width: 100%;
+  height: 50%;
   margin-bottom: 1rem;
   overflow: hidden;
 }
@@ -1033,6 +1037,7 @@ button.btn {
 .galery__item:hover .eye svg,
 .galery__item:hover .img__overlay {
   opacity: 1;
+  transition: all 0.3s linear;
 }
 
 .item__img img {
@@ -1050,6 +1055,10 @@ button.btn {
   bottom: 0;
   border-radius: 0.5rem;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #f0f0f0 100%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s linear;
 }
 
 .eye svg {
@@ -1107,10 +1116,6 @@ button.btn {
 
 .block__content-blog {
   margin-bottom: 8rem;
-}
-
-.header__blogPage {
-  margin-bottom: 4.3rem;
 }
 
 .section__blogPage {
@@ -1331,10 +1336,6 @@ button.btn {
   transition-duration: 0.3s;
 }
 
-.white-space {
-  white-space: nowrap;
-}
-
 .btn__footer-placement {
   margin: 0 auto;
   margin-top: 3rem;
@@ -1366,7 +1367,7 @@ button.btn {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: center;
   text-align: center;
   margin-bottom: 3.9rem;
@@ -1426,43 +1427,10 @@ button.btn {
   z-index: 6;
 }
 
-.logo-logo a {
-  position: relative;
-}
-
-.logo-logo a:after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  width: 2.9rem;
-  height: 2.9rem;
-  border-radius: 50%;
-  background-color: #4dc8c0;
-  top: -2.2rem;
-  left: 1.2rem;
-  z-index: 1;
-}
-
-.logo-logo a:before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  width: 2.9rem;
-  height: 2.9rem;
-  border-radius: 50%;
-  background-color: #e89160;
-  top: -0.5rem;
-  z-index: 0;
-  left: 3.3rem;
-}
-
 .logo__img {
-  width: 4.3rem;
   height: 3.7rem;
-  fill: #646c79;
   position: relative;
   z-index: 2;
-  margin-left: 1.8rem;
   margin-top: 1.6rem;
 }
 
@@ -1470,7 +1438,7 @@ button.btn {
   margin: 0 auto;
   width: 13.9rem;
   height: 1.4rem;
-  top: 1rem;
+  top: 0;
   left: 1rem;
   position: relative;
   display: block;
@@ -1512,28 +1480,10 @@ button.btn {
   width: 3.8rem;
   height: 3.8rem;
   padding: 0.7rem;
-  fill: none;
-  /* заливка */
-  stroke: #e89160;
-  /* цвет обводки */
-  stroke-width: 0.1rem;
-  /* толщина обводки */
   position: relative;
   z-index: 0;
   border-radius: 50%;
   border: solid 0.1rem #e89160;
-}
-
-.img-svg path,
-.img-svg polygon {
-  fill-opacity: 0.5;
-  /* прозрачность заливки */
-  stroke: #e89160;
-  /* цвет обводки */
-  stroke-width: 10px;
-  /* толщина обводки */
-  stroke-opacity: 0.8;
-  /* прозрачность обводки */
 }
 
 .adress__img {
@@ -1591,12 +1541,6 @@ button.btn {
   width: 3.8rem;
   height: 3.8rem;
   padding: 0.7rem;
-  fill: none;
-  /* заливка */
-  stroke: #e89160;
-  /* цвет обводки */
-  stroke-width: 0.1rem;
-  /* толщина обводки */
   position: relative;
   z-index: 0;
   border-radius: 50%;
@@ -1606,6 +1550,8 @@ button.btn {
 .phone__img {
   align-self: center;
   z-index: 1;
+  width: 3.8rem;
+  height: 3.8rem;
 }
 
 .tel {
@@ -1790,6 +1736,11 @@ button.btn {
 
 .hamburger__menu-list {
   margin-bottom: 11.1rem;
+}
+
+.menu__item--active {
+  color: #4dc8c0;
+  pointer-events: none;
 }
 
 .btn {
@@ -2594,12 +2545,6 @@ input[type="checkbox"]:checked ~ .accordion-child {
 .icons-email {
   width: 3.8rem;
   height: 3.8rem;
-  fill: none;
-  /* заливка */
-  stroke: #e89160;
-  /* цвет обводки */
-  stroke-width: 0.1rem;
-  /* толщина обводки */
   position: relative;
   z-index: 0;
   border-radius: 50%;
@@ -2638,7 +2583,8 @@ input[type="checkbox"]:checked ~ .accordion-child {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 0 9vw;
     align-content: center;
   }
 
@@ -3060,8 +3006,10 @@ input[type="checkbox"]:checked ~ .accordion-child {
   .menu__list-footer {
     margin: 0 auto;
     width: 90%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 0 0vw;
     align-content: center;
+    margin-bottom: 4.6rem;
   }
 
   .menu__list-footer li {
@@ -3070,10 +3018,6 @@ input[type="checkbox"]:checked ~ .accordion-child {
 
   .policy__footer {
     width: 35rem;
-  }
-
-  .menu__list-footer {
-    margin-bottom: 4.6rem;
   }
 
   .social {
@@ -3821,7 +3765,8 @@ input[type="checkbox"]:checked ~ .accordion-child {
     width: 90%;
     padding: 0 11rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 0 7vw;
     align-content: center;
     background: #879ab9;
     border-radius: 0.5rem;
