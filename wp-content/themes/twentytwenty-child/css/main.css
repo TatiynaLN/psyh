@@ -291,7 +291,6 @@ h4,
   align-self: center;
   display: block;
   width: 26rem;
-  height: 4.8rem;
 }
 
 .form-section {
@@ -400,12 +399,6 @@ h4,
   margin-bottom: 2rem;
 }
 
-.form__input-block {
-  display: block;
-  width: 26rem;
-  height: 4.8rem;
-}
-
 .head__btn-bottom:hover {
   -webkit-animation: btn 0.5s ease-in-out forwards;
   animation: btn 0.5s ease-in-out forwards;
@@ -483,12 +476,15 @@ h4,
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .btn_left {
   margin-left: 0;
   display: block;
   margin: 2.5rem 0 3rem 0;
+  width: 16em !important;
 }
 
 .situations-height {
@@ -888,6 +884,7 @@ span.txt,
 }
 
 .consul-title {
+  display: block;
   margin-bottom: 0.6rem;
   font-family: "Raleway";
   font-style: normal;
@@ -1805,6 +1802,10 @@ span.txt,
   margin: 0 auto;
 }
 
+.btn__width {
+  padding: 0.8em 0;
+}
+
 #modal__checkbox-footer,
 #form__checkboxs,
 #modal__checkbox,
@@ -1938,17 +1939,16 @@ span.txt,
   line-height: 1.96rem;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #646c79;
+  padding: 1.3rem 1rem;
 }
 
 .modal__phone {
   width: 25.4rem;
-  height: 6.1rem;
   margin-bottom: 2rem;
 }
 
 .btn__width {
   margin: 0 auto;
-  padding: 1.1em 0;
   width: 19em;
   display: block;
   outline: none;
@@ -2026,10 +2026,6 @@ a.form__policy-link {
 
 input {
   outline: none;
-}
-
-.form__header-btn {
-  margin-bottom: 2rem;
 }
 
 /* свойства модального окна по умолчанию */
@@ -3053,6 +3049,7 @@ input[type="checkbox"]:checked ~ .accordion-child {
     width: 50rem;
     margin: 0 auto;
     margin-bottom: 3.1rem;
+    margin-top: 3.1rem;
   }
 
   .form__header-text {
@@ -3387,6 +3384,10 @@ input[type="checkbox"]:checked ~ .accordion-child {
 
   .container__family {
     background: url("../img/family1@1x.jpg");
+  }
+
+  .form__consul-btn {
+    margin: 0 !important;
   }
 
   .container__child {
@@ -3800,12 +3801,11 @@ input[type="checkbox"]:checked ~ .accordion-child {
   .btn__mobail-none {
     display: block;
     margin: 0;
-    margin-top: 2rem;
   }
 
   .btn {
     width: 13.75em;
-    padding: 1.2em 0;
+    padding: 1em 0;
     text-align: center;
     align-self: baseline;
     font-size: 1.8rem;
@@ -3958,18 +3958,13 @@ input[type="checkbox"]:checked ~ .accordion-child {
     justify-self: flex-start;
   }
 
-  .contacts__footer {
-    margin: 0;
-    align-self: center;
-    align-self: baseline;
-  }
-
   .address__footer {
     width: 25.9rem;
   }
 
   .btn__footer-placement {
     margin-bottom: 0;
+    align-self: center;
   }
 
   .footer {
