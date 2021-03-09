@@ -857,6 +857,23 @@ button.btn {
   background: url("../img/child1@1x-s.jpg");
 }
 
+li.txt {
+  background: url("../img/icons/spam.svg") no-repeat 0 -0.2rem;
+  background-size: 3rem;
+  padding: 0rem 0 0.5rem 4rem;
+}
+
+li.block__txt-txts {
+  background: url("../img/icons/icon.svg") no-repeat 0 0;
+  background-size: 2.8rem;
+  padding: 0rem 0 0.5rem 4rem;
+}
+
+span.txt,
+.consul-txt {
+  display: block;
+}
+
 .container__online {
   background: url("../img/onlain1@x1-s.jpg");
 }
@@ -866,9 +883,6 @@ button.btn {
 }
 
 .block__txt-txts {
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
   width: 100%;
   gap: 1.1rem;
 }
@@ -953,9 +967,6 @@ button.btn {
 
 .block__txt-txt {
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-self: center;
   gap: 1.1rem;
 }
 
@@ -2441,12 +2452,6 @@ input[type="checkbox"]:checked ~ .accordion-label:before {
 
 .accordion-child::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 0.3rem;
-}
-
-.accordion-child::-webkit-scrollbar-thumb {
-  border-radius: 2px;
-  background-color: #56d0c9;
 }
 
 .accordion-text {
